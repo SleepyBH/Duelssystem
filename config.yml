@@ -1,0 +1,4 @@
+# DuelMaster default configuration
+broadcast-duel-results: true
+request-timeout-seconds: 30
+duel-cooldown-seconds: 10

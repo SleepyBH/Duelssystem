@@ -1,0 +1,21 @@
+name: DuelMaster
+main: com.duelmaster.DuelMaster
+version: 1.0.0
+author: Alexetrey
+api-version: 1.21
+description: Modern 1v1 duel plugin for Spigot/Paper 1.21+
+commands:
+  duel:
+    description: Duel commands
+    usage: /duel <player|accept|deny|leave|kit|stats>
+    aliases: [duels]
+  dueladmin:
+    description: Admin commands for DuelMaster
+    usage: /dueladmin <createarena|setspawn>
+permissions:
+  duelmaster.duel:
+    description: Allows use of /duel
+    default: true
+  duelmaster.admin:
+    description: Allows use of /dueladmin
+    default: op 
